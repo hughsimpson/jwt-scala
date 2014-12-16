@@ -35,7 +35,7 @@ publishTo := {
     Some("releases" at nexus + "service/local/staging/deploy/maven2")
 }
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.10.4"
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.1.5" % "test",
